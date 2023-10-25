@@ -1,0 +1,27 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* image link formula for webpage. Credit: https://stackoverflow.com/questions/12543697/setting-an-image-button-in-css-imageactive (.myButton)
+https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_fade (.myButton: hover) */
+.myButton{
+    background:url(./images/but.png) no-repeat;
+    cursor:pointer;
+    border:none;
+    width:100px;
+    height:100px;
+    opacity: 0.6;
+  transition: 0.3s;
+}
+
+.myButton:hover {opacity: 1}
