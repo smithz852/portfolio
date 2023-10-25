@@ -1,5 +1,26 @@
+.about-me {
+  display: flex;
+  text-align: left;
+  text-decoration: none;
+}
 
+h2 {
+  font-size: 40pt;
+  color: aqua;
+  margin: 0%;
+  width: 300px;
+  padding-right: 3%;
+  margin-right: 5%;
+  border-right: 5px solid aqua;
+}
 
+.inline {
+  display: flex;
+}
+
+.text-block {
+  margin-right: 10%;
+}
 
 
 
