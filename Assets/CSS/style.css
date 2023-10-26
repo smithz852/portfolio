@@ -102,6 +102,19 @@ li {
   border-left: aqua solid 5px;
 }
 
+h4 {
+  background-color: red;
+  color: white;
+
+}
+
+.project-img {
+  width: 200px;
+  height: 200px;
+  border: 3px solid black;
+  border-radius: 5% 5% 0% 0% ;
+}
+
 .contact-me {
   /* margin-right: 10%; */
   border-left: aqua solid 5px;
