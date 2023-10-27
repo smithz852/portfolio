@@ -4,7 +4,7 @@ h1 {
 }
 
 h2 {
-  font-size: 40pt;
+  font-size: 35pt;
   color: rgb(10, 80, 80);
   margin: 0%;
   width: 142px;
@@ -31,6 +31,10 @@ footer {
 }
 
 .inline {
+  display: flex;
+}
+
+.block {
   display: flex;
 }
 
@@ -67,30 +71,23 @@ li {
 
 
 .bio-block {
-  position: absolute;
+  display: flex;
   background-color: rgb(173, 153, 153);
   width: 74%;
   align-items: center;
-  margin-top: 1%;
+  margin-top: -20%;
   margin-left: 19%;
 }
 
 .bio-text {
   margin-right: 10%;
   padding-left: 3%;
-  height: 190px;
   /* border-left: 5px solid aqua; */
 }
 
-/* helps display About Me section near the top of the page */
-.flex-block {
-  display: flex;
-  flex-direction: column;
-}
-
-
 /* sets margin for parahraphs in the About Me section */
 .text-block {
+  position: relative;
   margin-right: 10%;
   padding-left: 3%;
   height: 190px;
@@ -98,18 +95,16 @@ li {
 }
 
 /* for work title and border */
-.work-sidebar {
-  position: relative;
-margin-left: 10%;
-margin-bottom: 28%;
+.work-sect {
+  margin-top: 6%;
+  margin-left: 4%;
 }
 /* sets button box bext to work title on page */
 .work-flexbox {
-  position: absolute;
   display: flex;
   flex-wrap: wrap;
   right: 12.5%;
-  top: 45%;
+  top: 38%;
   width: 65%;
   height: 500px;
   border-left: 5px solid aqua ;
@@ -158,4 +153,11 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_fade (.myButton:
 
 .myButton:hover {opacity: 1}
 
+/* Media screen section */
 
+@media screen and (max-width: 375px) {
+ p {
+ font-size: 75%;
+  }
+};
+  
