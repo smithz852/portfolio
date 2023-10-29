@@ -114,7 +114,7 @@ li {
 /* sets button box bext to work title on page */
 .work-flexbox {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: wrap-reverse;
   width: 75%;
   height: 800px;
   /* height: 500px; */
@@ -124,7 +124,7 @@ li {
 .card {
   flex: 1 1 0;
   border: 4px solid black;
-  min-width: 25%;
+  min-width: 30%;
   max-height: 350px;
   padding: 10px;
   margin: 8px;
