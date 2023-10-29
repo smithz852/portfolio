@@ -18,6 +18,17 @@ h2 {
 /* border-radius: 5%; */
 }
 
+h3 {
+  font-size: 20pt;
+  color: black;
+  margin: 0%;
+  width: 141px;
+  padding-right: 5%;
+  margin-left: 3%;
+  /* border-right: 5px solid aqua; */
+/* border-radius: 5%; */
+}
+
 footer {
   margin-bottom: 1%;
 }
@@ -186,6 +197,45 @@ align-content: start;   }
  }
 
 }
+
+@media screen and (max-width: 425px) {
+  h1 {
+    margin-right: 18%;
+  }
+
+  h3 {
+    margin-top: 2%;
+    margin-left: 0%;
+    padding: 0%;
+  }
+
+ body {
+  margin: 0px 0px 0px 0px;
+ }
+
+ ul {
+  flex-direction: column;
+ }
+ 
+ div {
+  flex-direction: column;
+ }
+
+  .work-flexbox {
+    border: none;
+    width: 100%;
+  }
+
+ .footer-block {
+   flex-direction: column;
+  }
+
+  .contact-me {
+    border: none;
+  }
+
+}
+
 
 
 
