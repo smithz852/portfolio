@@ -34,6 +34,17 @@ h3 {
 /* border-radius: 5%; */
 }
 
+ h5 {
+  margin: 0;
+  /* position: absolute; */
+  text-align: center;
+  font-size: 15pt;
+ }
+
+ h6 {
+  position: absolute;
+ }
+
 footer {
   margin-bottom: 1%;
 }
@@ -43,6 +54,12 @@ footer {
   background-color: rgb(129, 85, 85);
   width: 100%;
   margin-bottom: 2%;
+}
+
+img {
+  object-fit: fill;
+  max-width: 100%;
+  /* max-height: fit-content; */
 }
 
 .footer-block {
@@ -90,7 +107,9 @@ li {
   margin-bottom: 5%;
 }
 
-
+img {
+   position: relative;
+}
 
 /* .bio-block {
   display: flex;
@@ -113,6 +132,7 @@ li {
 } */
 /* sets button box bext to work title on page */
 .work-flexbox {
+  position: relative;
   display: flex;
   flex-flow: wrap-reverse;
   width: 75%;
@@ -122,14 +142,16 @@ li {
 }
 
 .card {
+  position: relative;
   flex: 1 1 0;
   border: 4px solid black;
   min-width: 30%;
-  max-height: 350px;
-  padding: 10px;
+  max-height: 245px;
+  /* padding-top: 30px; */
   margin: 8px;
   margin-left: 3%;
 }
+
 
 .contact-me {
   /* margin-right: 10%; */
@@ -165,6 +187,11 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_fade (.myButton:
 .myButton:hover {opacity: 1}
 
 /* Media screen section */
+
+
+
+
+
 
 @media screen and (max-width: 768px) {
   .inline   {
