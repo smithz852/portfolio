@@ -141,6 +141,12 @@ img {
   border-left: 5px solid aqua ;
 }
 
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
 .card {
   position: relative;
   flex: 1 1 0;
@@ -151,6 +157,13 @@ img {
   margin: 8px;
   margin-left: 3%;
 }
+
+.card-text {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+}
+
 
 
 .contact-me {
