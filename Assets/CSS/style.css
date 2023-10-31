@@ -44,6 +44,11 @@ p {
     text-decoration: none;
  }
 
+ a:hover {
+    color: white;
+    text-decoration: underline;
+ }
+
 footer {
   margin-bottom: 1%;
 }
