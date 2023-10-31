@@ -44,6 +44,7 @@ p {
     text-decoration: none;
  }
 
+ /* gives white text appearence when hovering over text links */
  a:hover {
     color: white;
     text-decoration: underline;
@@ -64,20 +65,11 @@ img {
   object-fit: fill;
   max-width: 100%;
 }
-
-/* organize into one */
-.inline {
+/* sets flex boxes throughout page */
+.flex {
   display: flex;
 }
 
-.work-align {
-  display: flex;
-}
-
-.block {
-  display: flex;
-}
-/* ................ */
 ul {
   display: flex;
   flex-wrap: nowrap;
@@ -92,7 +84,7 @@ li {
 }
 
 
-
+/* Parameters for self portrait in about me section */
 #portrait {
   position: relative;
   width: 192px;
@@ -112,14 +104,14 @@ img {
   margin-right: 10%;
   padding-left: 3%;
 }
-
+/* flex box specs for work section */
 .work-flexbox {
   position: relative;
   display: flex;
   flex-flow: wrap-reverse;
   border-left: 5px solid aqua ;
 }
-
+/* Sets basis for four smallest buttons in work section */
 .container {
   position: relative;
   flex-basis: 41%;
@@ -127,6 +119,7 @@ img {
   text-align: center;
   color: black;
 }
+/* specs for large picture */
 #top-container {
   position: relative;
   flex-basis: 88%;
@@ -134,49 +127,49 @@ img {
   color: black;
   margin-left: 1%;
 }
-
+/* gurther card positioning and design for four smallest buttons */
 .card {
   position: relative;
   border: 4px solid silver;
   margin-left: 4%;
 }
-
+/* further specs for largest button */
 #top-card {
   position: relative;
   border: 4px solid silver;
   margin-left: 4%;
 }
-
+/* overlay text for small buttons */
 .card-placeholder {
   position: absolute;
   bottom: 3%;
   left: 4.5%;
 }
-
+/* overlay text for large button */
 .card-top {
   position: absolute;
   bottom: 2%;
   left: 4.5%;
 }
-
+/* overlay box for large button */
 .top-descr {
   background-color: silver;
   padding: 2%;
   box-shadow: 3px 3px 10px;
 }
-
+/* overlay box for small buttons */
 .card-descr {
   background-color: silver;
   padding: 2%;
   box-shadow: 3px 3px 10px;
 }
-
+/* bolds title of button description */
 .project-descr {
   margin: 0;
   font-weight: bold;
   font-size: 15pt;
  }
-
+/* font size for other descriptions in overlay text */
  .project-text {
   font-size: 10pt;
  }
@@ -194,8 +187,6 @@ img {
   height: 110px;
 }
 
-/* image link formula for webpage. Credit: https://stackoverflow.com/questions/12543697/setting-an-image-button-in-css-imageactive (.myButton)
-https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_fade (.myButton: hover) */
 .myButton{
     cursor:pointer;
     opacity: 0.6;
@@ -283,11 +274,11 @@ align-content: start;   }
 }
 
 .project-descr {
-  font-size: 60%;
+  font-size: 67%;
 }
 
 .project-text {
- font-size: 60%;
+ font-size: 55%;
 }
 
 }
