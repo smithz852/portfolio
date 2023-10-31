@@ -221,7 +221,6 @@ img {
 https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_fade (.myButton: hover) */
 .myButton{
     cursor:pointer;
-    border:none;
     opacity: 0.6;
   transition: 0.3s;
 }
